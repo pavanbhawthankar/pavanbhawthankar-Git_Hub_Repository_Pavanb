@@ -1,0 +1,24 @@
+{
+	"name": "stg_event_trig_pipeline1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline1_stg_event_trig",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/input/blobs/'bank/'",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/7d747e6e-44e2-4626-a159-930f95cff64d/resourceGroups/Res_Grp_Practise/providers/Microsoft.Storage/storageAccounts/blobspace222",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
