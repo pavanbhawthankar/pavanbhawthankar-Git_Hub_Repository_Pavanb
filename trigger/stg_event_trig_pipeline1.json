@@ -13,7 +13,7 @@
 		],
 		"type": "BlobEventsTrigger",
 		"typeProperties": {
-			"blobPathBeginsWith": "/input/blobs/'bank/'",
+			"blobPathBeginsWith": "/input/blobs/Bank_customer_file.csv",
 			"ignoreEmptyBlobs": true,
 			"scope": "/subscriptions/7d747e6e-44e2-4626-a159-930f95cff64d/resourceGroups/Res_Grp_Practise/providers/Microsoft.Storage/storageAccounts/blobspace222",
 			"events": [
