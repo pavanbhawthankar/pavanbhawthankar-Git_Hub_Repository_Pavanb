@@ -1,0 +1,9 @@
+{
+	"name": "ADF-Renukadas-Dev",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5e075513-91a5-4d62-a87f-e43f34c7a9ea",
+		"tenantId": "fc9c61d1-7467-44a2-a14f-8ac93cf73a1d"
+	}
+}
