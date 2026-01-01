@@ -1,5 +1,5 @@
 {
-	"name": "bulk_copy",
+	"name": "bulk_copy_blob_to_blob",
 	"properties": {
 		"activities": [
 			{
