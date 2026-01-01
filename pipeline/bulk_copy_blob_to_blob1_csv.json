@@ -20,7 +20,7 @@
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
 							"recursive": true,
-							"wildcardFileName": "*.csv",
+							"wildcardFileName": "creditcard*",
 							"deleteFilesAfterCompletion": false
 						},
 						"formatSettings": {
