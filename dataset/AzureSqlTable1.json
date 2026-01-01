@@ -11,5 +11,6 @@
 		"typeProperties": {
 			"table": "bank_customer_file"
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
 }

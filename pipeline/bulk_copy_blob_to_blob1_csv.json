@@ -52,6 +52,8 @@
 		"folder": {
 			"name": "Bulk_copy"
 		},
-		"annotations": []
-	}
+		"annotations": [],
+		"lastPublishTime": "2026-01-01T10:28:23Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
 }
