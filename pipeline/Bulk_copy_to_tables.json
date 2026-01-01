@@ -33,7 +33,7 @@
 				}
 			},
 			{
-				"name": "ForEach1",
+				"name": "ForEachActivity",
 				"type": "ForEach",
 				"dependsOn": [
 					{
