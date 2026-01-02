@@ -1,0 +1,23 @@
+{
+	"name": "LS_keyvault_test",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "sql-server-222.database.windows.net",
+			"database": "SQL_DB",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "RenukadasB",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault1test",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "PwdSQLDB"
+			}
+		}
+	}
+}
