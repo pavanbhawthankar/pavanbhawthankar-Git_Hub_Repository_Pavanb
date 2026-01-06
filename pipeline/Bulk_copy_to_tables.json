@@ -33,7 +33,7 @@
 				}
 			},
 			{
-				"name": "ForEachActivity",
+				"name": "ForEach1",
 				"type": "ForEach",
 				"dependsOn": [
 					{
@@ -122,6 +122,8 @@
 		"folder": {
 			"name": "Bulk_copy_to_Tables"
 		},
-		"annotations": []
-	}
+		"annotations": [],
+		"lastPublishTime": "2026-01-01T11:25:41Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
 }
